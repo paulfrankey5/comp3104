@@ -3,4 +3,4 @@
 
 # GitHub Action Status Badge
 
-[![CI](https://github.com/ORG_OR_USERNAME/COMP3104/actions/workflows/ci.yml/badge.svg)](https://github.com/ORG_OR_USERNAME/COMP3104/actions/workflows/ci.yml)
+[![CI](https://github.com/paulfrankey5/comp3104/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/paulfrankey5/comp3104/actions/workflows/ci.yml)

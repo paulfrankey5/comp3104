@@ -35,6 +35,6 @@ echo "Running pre-commit hook: Linting code..."
 if [ $? -ne 0 ]; then
   echo "Linting failed. Fix errors before committing."
   exit 1
-
+fi
   ```
 

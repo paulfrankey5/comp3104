@@ -20,5 +20,21 @@ if ! echo "$COMMIT_MSG" | grep -Eq "^(feat|fix|docs|style|refactor|test|chore): 
   echo " Commit message must follow the format: <type>: <description>"
   echo " Example: feat: add user authentication"
   exit 1
-fi
+
 ```
+# Pre-Commit Hook(Lint Code Before Commit)
+
+Ensures that the code is linted before committing.
+
+**File:** `.git/hooks/pre-commit`
+
+```bash
+#!/bin/sh
+echo "Running pre-commit hook: Linting code..."
+# npm run lint
+if [ $? -ne 0 ]; then
+  echo "Linting failed. Fix errors before committing."
+  exit 1
+
+  ```
+
